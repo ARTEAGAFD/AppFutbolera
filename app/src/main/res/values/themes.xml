@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.AppFutbolera" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Tema base compatible con AppCompatActivity -->
+    <style name="Theme.AppFutbolera" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Personalización de colores primarios -->
+        <item name="colorPrimary">@color/purple_500</item>
+    </style>
 </resources>

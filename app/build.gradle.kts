@@ -56,9 +56,13 @@ dependencies {
     // Retrofit + GSON para consumir la API de fútbol
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
     // Glide para cargar imágenes de jugadores e insignias
     implementation("com.github.bumptech.glide:glide:4.16.0")
 
     // RecyclerView para las listas
     implementation("androidx.recyclerview:recyclerview:1.3.2")
+
+    // Soporte para AppCompatActivity
+    implementation("androidx.appcompat:appcompat:1.6.1")
 }
